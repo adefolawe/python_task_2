@@ -73,3 +73,5 @@ def script():
                 print('Thank you. Goodbye')
             breakpoint
 script()
+with open("userinput.txt") as f:
+    print (f.read())
